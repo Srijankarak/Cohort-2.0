@@ -38,3 +38,5 @@ for(let i=0;i<allUsers.length;i++){
         console.log(`Mr. ${allUsers[i].firstName} ${allUsers[i].lastName}, Age: ${allUsers[i].age}`);
     }
 }
+console.log(allUsers[0].firstName);  
+console.log(allUsers[0]['gender']); // these two are same 
