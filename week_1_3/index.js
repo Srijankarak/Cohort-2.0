@@ -5,3 +5,5 @@ function findIndexOf(str , target){
 }
 
 findIndexOf("hello world world" , "world");
+
+//length , lastIndexOf , indexOf    - we learn these three functions of Javascript
