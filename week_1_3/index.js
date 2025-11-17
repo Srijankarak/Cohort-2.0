@@ -15,3 +15,10 @@ function getSlice(str, start, end) {
 }
 
 getSlice("hello world", 0, 5);
+
+
+//substring
+const value = "JavaScript is awesome";
+const subStr = value.substring(0, 12);
+console.log("Original String:", value);
+console.log("Substring (0,12):", subStr);
