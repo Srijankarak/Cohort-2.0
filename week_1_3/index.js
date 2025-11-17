@@ -7,3 +7,11 @@ function findIndexOf(str , target){
 findIndexOf("hello world world" , "world");
 
 //length , lastIndexOf , indexOf    - we learn these three functions of Javascript
+
+//slice
+function getSlice(str, start, end) {
+    console.log("Original String:", str);
+    console.log("After Slice:", str.slice(start, end));
+}
+
+getSlice("hello world", 0, 5);
