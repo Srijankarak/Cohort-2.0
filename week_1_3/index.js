@@ -108,3 +108,30 @@ function logThing(k){
 }
 // for each takes a function as an argument and calls that function for every element of the array
 arrForEach.forEach(logThing); // this also a type of callback function
+
+///callbacks , map , filter, find , sort - in upcoming lessons
+
+// Level - 2
+
+
+const dog = {
+    name: "doggie",
+    legCount: 4,
+    speaks: "bhow bhow"
+}
+
+const cat ={
+    name: "cat",
+    legCount: 4,
+    speaks: "meow meow"
+}
+
+function animalDetails(animal){
+    return "animal " + animal.name + " " + animal.speaks + " with " + animal.legCount + " legs";
+}
+// animal x bark bark with 2 legs
+
+console.log(animalDetails(dog));
+console.log(animalDetails(cat));
+
+// 38:00
