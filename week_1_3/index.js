@@ -22,3 +22,19 @@ const value = "JavaScript is awesome";
 const subStr = value.substring(0, 12);
 console.log("Original String:", value);
 console.log("Substring (0,12):", subStr);
+
+function cuIT(str , startIndex , endIndex){
+    let newStr = "";
+    for(let i=0 ; i<str.length ; i++){
+        if(i>=startIndex && i<endIndex){
+            newStr += str[i];
+        }
+    }
+    return newStr;      
+}
+
+const val = "Srijan Karak is a OG Developer";
+let ans2 = val.slice(2,5);
+console.log(ans2);
+let ans3 = cuIT(val , 2 , 5);
+console.log(ans3);
