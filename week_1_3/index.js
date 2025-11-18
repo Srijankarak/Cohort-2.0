@@ -82,3 +82,19 @@ explainParseIntFloat("123.45");
 explainParseIntFloat("67.89abc");
 explainParseIntFloat("abc45.67");
 explainParseIntFloat("   12.34   ");
+
+// push , pop , shift , Unshift , concat
+const initialArr = [1, 2, 3];
+const secondArr =  [4 , 5 , 6];
+initialArr.push(4);
+console.log("After Push:", initialArr);// see even after arr is const but still we push new element here
+console.log(initialArr.concat(secondArr)); // concat does not change the original array
+secondArr.pop();
+console.log("After Pop:", secondArr);
+secondArr.shift();
+console.log("After Shift:", secondArr);
+// shift means removing the first element of the array  
+secondArr.unshift(10);
+console.log("After Unshift:", secondArr);
+// unshift means adding element at the starting of the array   
+ 
