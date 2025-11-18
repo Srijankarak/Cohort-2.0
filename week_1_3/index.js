@@ -97,4 +97,14 @@ console.log("After Shift:", secondArr);
 secondArr.unshift(10);
 console.log("After Unshift:", secondArr);
 // unshift means adding element at the starting of the array   
- 
+
+
+
+// forEach
+const arrForEach = [10, 20, 30, 40, 50];
+
+function logThing(k){
+    console.log(k);
+}
+// for each takes a function as an argument and calls that function for every element of the array
+arrForEach.forEach(logThing); // this also a type of callback function
