@@ -38,3 +38,47 @@ let ans2 = val.slice(2,5);
 console.log(ans2);
 let ans3 = cuIT(val , 2 , 5);
 console.log(ans3);
+
+// replace string
+const str = "Hello World";
+console.log(str.replace("World","javascript"));
+console.log(str.replace("something else which is not present","javascript"));
+
+//split string
+const sentence = "This is a sample sentence";
+const words = sentence.split(" ");
+console.log("Original Sentence:", sentence);
+console.log("Splitted Words:", words); // the output is an array
+
+//trim
+const w ="     srijan karak     ";
+console.log("Original String with spaces:", `"${w}"`);
+console.log("Trimmed String:", `"${w.trim()}"`);
+
+//toUpperCase and toLowerCase
+const mixedCase = "harkirat Singh";
+console.log("Original String:", mixedCase);
+console.log("To Upper Case:", mixedCase.toUpperCase());
+console.log("To Lower Case:", mixedCase.toLowerCase());
+
+//numbers
+function explainParseInt(v) {
+    console.log("Original Value:", v);
+    console.log("Parsed Integer:", parseInt(v));
+}
+
+//Example Usage for parseInt
+explainParseInt("123");
+explainParseInt("45.67xyz");
+explainParseInt("abc123");
+explainParseInt("   89   ");
+
+//float
+function explainParseIntFloat(b) {
+    console.log("Original Value:", b);
+    console.log("Parsed Float:", parseFloat(b));
+}
+explainParseIntFloat("123.45");
+explainParseIntFloat("67.89abc");
+explainParseIntFloat("abc45.67");
+explainParseIntFloat("   12.34   ");
