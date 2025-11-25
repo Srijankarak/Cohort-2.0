@@ -7,8 +7,8 @@ class Animal{
     }
     // you can also have static fuctions
     // these are not associated with objects , these are associated with the the class itself
-    static speak(){
-        console.log("I am a static method");
+    static myType(){
+        console.log("Animal");
     }
     speak(){
         console.log(`${this.name} says ${this.speaks}`);
