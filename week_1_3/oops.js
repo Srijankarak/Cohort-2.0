@@ -20,6 +20,8 @@ class Animal{
 let dog = new Animal("doggie" , 4 , "bhow bhow");
 dog.speak();
 console.log(dog);
+// dog.myType(); // this will give error as myType is static function
+Animal.myType(); // correct way to call static function
 
 let cat = new Animal("catty",4,"meow meow");
 cat.speak();
